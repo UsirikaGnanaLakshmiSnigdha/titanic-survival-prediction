@@ -30,3 +30,15 @@ data/*.csv
 *.pkl
 *.joblib
 
+
+#Explanation:
+
+#__pycache__/, *.pyc → compiled Python files (not needed in repo)
+
+#.venv/, env/ → your local virtual environment (others will create their own)
+
+#.ipynb_checkpoints/ → Jupyter autosave junk
+
+#data/*.csv → Titanic dataset (users can download from Kaggle instead of uploading big CSV files to GitHub)
+
+#*.pkl, *.joblib → trained model files (optional to share, usually excluded if very large
